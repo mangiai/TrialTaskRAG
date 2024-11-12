@@ -1,5 +1,5 @@
-# Gaditek Legal System Documentation  
-*Submission for NLP Task*
+# LegalQuery Documentation    
+*Submission for Trial Assignment @ Gaditek*
 
 ## Project Overview
 This project implements a Retrieval-Augmented Generation (RAG) system designed to handle legal queries by accessing a vectorized database of legal documents. By combining LangChain, Pinecone, and a language model, the system provides accurate responses based on contextually relevant legal information.
