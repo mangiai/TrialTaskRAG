@@ -213,6 +213,46 @@ Export environment requirements to ensure all dependencies are locked.
 ```
 
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/mangiai/TrialTaskRAG.git
+```
+
+Go to the project directory
+
+## Set up a Virtual Environment
+Create a virtual environment named myenv (Linux):
+
+```bash
+python3 -m venv myenv
+```
+Activate the virtual environment:
+```bash
+source myenv/bin/activate
+```
+## Install Dependencies
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+## Set up Environment Variables
+Ensure your .env file with API keys is in the project root directory, as shown below:
+```plaintext
+PINECONE_API_KEY="your_pinecone_api_key"
+OPENAI_API_KEY="your_openai_api_key"
+TAVILY_API_KEY="your_tavily_api_key"
+```
+## Start the Chainlit Server
+Run chat.py with Chainlit:
+```bash
+chainlit run chat.py -w
+```
+The server should now be running locally, and you can access the interface by navigating to the URL provided by Chainlit (usually http://localhost:8000).
+
 
 
 
